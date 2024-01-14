@@ -20,7 +20,7 @@ def index():
             short_url = generate_short_url()
 
         shortened_urls[short_url] = long_url
-        with open('urls_json', 'w') as f:
+        with open('urls.json', 'w') as f:
             json.dump(shortened_urls, f)
         return f"Shortened URL: {request.url_root}{short_url}"  
     return render_template('index.html')
