@@ -9,6 +9,6 @@ Para instalar las dependencias del proyecto, primero necesitarás tener Python y
 ```sh
 pip install -r .\requirements.txt
 ```
-## Instalación
+## Uso
 ```sh
 python app.py
